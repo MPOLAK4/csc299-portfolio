@@ -27,3 +27,23 @@ this repo only holds the README that links to them.
 
 - Follow the root `CLAUDE.md` for how to teach, explain, and commit.
 - Keep each project small and readable; I should be able to understand all of it.
+
+## What never goes in a repository
+
+From the project spec sheet: "No transcripts (.jsonl files), no API keys or
+passwords, no .venv or node_modules folders, and no personal information you
+would not put on a public web page. These repositories are public."
+
+- Never create, copy, or commit any of those things, in any project repo.
+- Give every project a `.gitignore` that covers `*.jsonl`, `.env` and other secret
+  files, `.venv/`, and `node_modules/`.
+- Read keys and passwords from environment variables, never from source files.
+- Before each commit, check what is staged (`git status`, `git diff --staged`) and
+  stop if anything on this list is in it.
+
+## Commits
+
+- Whenever you fix, add, or modify a feature, make a commit right after, with a
+  short message saying what changed. Do not batch unrelated changes together.
+- Never push. I decide what gets pushed and when. Do not run `git push`, add
+  remotes, or create GitHub repos unless I ask.
