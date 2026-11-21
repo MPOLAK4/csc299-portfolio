@@ -6,4 +6,4 @@ Projects from CSC299-401, AI-Assisted Software Development.
 | --- | --- |
 | Web app demo | [web-app-demo](https://github.com/MPOLAK4/web-app-demo) |
 | Web app game | [webapp-game](https://github.com/MPOLAK4/webapp-game) |
-| Headless command-line app | [cmd-ai-usage](https://github.com/MPOLAK4/cmd-ai-usage) |
+| Headless command-line app | [headless-cmd-app](https://github.com/MPOLAK4/headless-cmd-app) |
