@@ -1,7 +1,7 @@
 # CSC299 portfolio: shared instructions
 
 These rules apply to every project in this portfolio: `web-app-demo`,
-`webapp-game`, and `headless-cmd-app`. Each project is its own git repo;
+`webapp-game`, and `cmd-rar`. Each project is its own git repo;
 this repo only holds the README that links to them.
 
 ## Always write unit tests
